@@ -1,0 +1,53 @@
+.informacion-Personal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--color-secundario);
+    align-items: flex-start;
+    padding: 1rem;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+.informacion-Personal h1{
+    font-weight: 1000;
+}
+
+.img-info-container{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    height: auto;
+
+}
+
+.img-container{
+    padding: 1rem;
+}
+
+.Nombre-descripcion{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contactos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.contacto img{
+    height: 2rem;
+}
