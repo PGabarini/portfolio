@@ -1,14 +1,14 @@
 :root{
 
-    --color-principal:  #8a09a7;
-    --color-secundario:  #979ddc;
+    --color-principal:  #69d2e7;
+    --color-secundario:  #aecbff;
     --color-acento:  #f1ecb2;
-    --fondo-gris:  #e2e2e2;
+    --fondo-gris:  #eeeeee;
 
     --letra-negra:#222121;
     --letra-clara:#3b3b3b;
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -38,4 +38,21 @@ a {
     text-decoration: none;
     color: inherit;
     box-sizing: border-box;
+    cursor: pointer;
+}
+
+.boton{
+    cursor: pointer;
+    padding: 1rem;
+    background-color: var(--color-acento);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.boton:hover{
+    transform: scale(1.1,1.1);
 }
