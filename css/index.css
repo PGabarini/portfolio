@@ -9,6 +9,7 @@
     padding: 1rem;
     position: relative;
     box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    border-top: 10px solid var(--color-principal);
 
 }
 
@@ -80,20 +81,27 @@
     background-color: var(--fondo-gris);
     display: flex;
     flex-direction: column;
-    height: 100vh;
     gap: 1rem;
 }
 
 .card{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 0.7rem;
     background-color: white;
     padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     box-shadow: 0 15px 25px rgba(0,0,0,0.1);
     align-items: center;
     min-height: 10rem;
+}
+
+.img-empresa img{
+    width: 10rem;
+    height: auto;
+    border-radius: 0.5rem;
 }
 
 /*Experiencia*/
