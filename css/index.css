@@ -76,7 +76,9 @@
 /*Secciones*/
 
 .seccionPrincipal{
-    padding: 2rem;
+    padding: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     width: 100%;
     background-color: var(--fondo-gris);
     display: flex;
@@ -96,12 +98,24 @@
     box-shadow: 0 15px 25px rgba(0,0,0,0.1);
     align-items: center;
     min-height: 10rem;
+    border: 0.7px solid white;
+}
+
+.card:hover{
+    transform: scale(1,1);
+    border: 0.7px solid var(--letra-negra);
 }
 
 .img-empresa img{
     width: 10rem;
     height: auto;
     border-radius: 0.5rem;
+}
+.info-extra{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 /*Experiencia*/
@@ -115,4 +129,11 @@
     align-items: center;
     justify-content: center;
     height: auto;
+}
+
+/*Poryectos*/
+
+.proyecto-img{
+    
+    min-height: 7rem;
 }

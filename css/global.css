@@ -22,6 +22,7 @@ body{
 
 p{
     font-size: small;
+    font-weight: 600;
     color: var(--letra-clara);
 }
 h2{
@@ -53,6 +54,35 @@ a {
     align-items: center;
 }
 
-.boton:hover{
-    transform: scale(1.1,1.1);
+.boton:hover , a:hover{
+    transform: scale(1.03,1.03);
+}
+
+#mensajeNoListo{
+    display: none;
+    width: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 2rem;
+    border: 1px solid var(--color-principal);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+#mensajeNoListo p{
+    font-size: medium;
+}
+
+#mensajeNoListo img{
+    height: 4rem;
+    width: auto;
 }
