@@ -86,3 +86,27 @@ a {
     height: 4rem;
     width: auto;
 }
+
+.naranja{
+    color: rgb(210, 88, 44);
+}
+
+.azul{
+    color: rgb(32, 32, 161);
+}
+
+.amarillo{
+    color: rgb(216, 216, 49);
+}
+
+.verde{
+    color: rgb(17, 104, 17);
+}
+
+.celeste{
+    color: rgb(14, 122, 157);
+}
+
+.negro{
+    color: black;
+}
