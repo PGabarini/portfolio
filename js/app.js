@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     /*Abrir modal sql */
     const verSql = document.getElementById('detalle-sql')
 
-    verMasMverSqletamapa.addEventListener(('click'),() => {
+    verSql.addEventListener(('click'),() => {
         const sql = document.getElementById('modal-sql')
         sql.style.display = 'flex'
     })
