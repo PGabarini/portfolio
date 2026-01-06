@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
             setTimeout(() => {
                 mensaje.style.display = 'none'
-            }, 6000);
+            }, 4500);
 
 
         })
