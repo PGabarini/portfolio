@@ -69,6 +69,13 @@
     align-items: center;
 }
 
+.contacto.gmail{
+    cursor:default;
+}
+.contacto.gmail:hover{
+    transform: scale(1,1);
+}
+
 .contacto img{
     height: 2rem;
 }
@@ -127,6 +134,7 @@
 /*Experiencia*/
 
 .boton.ver-mas{
+    display: none;
     height: 40%;
 }
 
