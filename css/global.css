@@ -135,3 +135,9 @@ a {
     border-radius: 50%;
     background-color: var(--color-principal);
 }
+
+@media(max-width:900px){
+    #mensajeNoListo{
+        width: 80%;
+    }
+}
