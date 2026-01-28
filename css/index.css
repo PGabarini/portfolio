@@ -261,6 +261,11 @@
 
 @media (max-width: 900px){
 
+    .idioma{
+        flex-direction: column;
+        gap: 0;
+    }
+
     .img-container {
         display: flex;
     align-items: center;
@@ -282,10 +287,22 @@
     .img-info-container{
         flex-direction: column;
         gap: 1rem;
+        width: 95%;
     }
 
     .informacion-Personal{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        
+    }
+    .contactos-container{
+    
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .contacto{
+        width: auto;
     }
 }
